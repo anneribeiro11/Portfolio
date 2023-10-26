@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    margin-right: 40px;
+    
+}
+
+.cabecalho {
+
+    background-color: #BE89CB;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.lista-menu li>a {
+    color: #FFFFFF;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.perfil {
+    background-color: #EDEAEA;
+    height: 450px;
+    text-align: center;
+
+}
+
+.minha-descricao {
+    color: #000;
+    font-family: ABeeZee;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    font-size: 14px;
+    width: 490px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 21px;
+    text-align: center;
+}
+
+.img {
+    margin-top: 48px;
+    margin-bottom: 26px;
+
+}
+
+.nome {
+
+    color: #FF4DBC;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    /* 50.4px */
+
+}
+
+.profissao {
+    color: #C5C0C0;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+.formacao {
+    background-color: #C5C0C0;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 86px;
+    max-width: 750px;
+
+}
+
+.artigo-formacao {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+
+
+}
+
+.titulo-secao {
+    font-size: 24px;
+    color: #ff4dbc;
+    margin-bottom: 50px;
+}
+
+.lista-formacao {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    padding-left: 32px;
+    /* 19.6px */
+
+}
+
+.titulo-formacao {
+    color: #828282;
+    font-family: Open Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+.link-formacao {
+    color: #2F80ED;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+
+}
+
+.descricao-formacao {
+    font-size: 15px;
+    margin-top: 8px;
+    margin-bottom: 53px;
+}
+
+.meus-projetos {
+    background-color: #EDEAEA;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.artigo-meus-projetos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+
+
+}
+
+.nome-projeto {
+    color: #661E4B;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 5px;
+
+}
+
+.título-projeto {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+.link-projeto-loja-virtual {
+    color: #2F80ED;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    margin-bottom: 5px;
+}
+
+.descricao-projeto-loja-virtual {
+    color: #000;
+    font-family: ABeeZee;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 5px;
+
+}
+
+.rodape {
+    display: flex;
+    align-items: center;
+    background-color: #BE89CB;
+    height: 200px;
+
+
+}
+
+.lista-rodape {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    align-items: center;
+    list-style: none; /* Remove os marcadores padrão da lista */
+    padding: 0; /* Remove o espaçamento interno da lista */
+}
+    /*color: #FFFFFF;
+    font-family: Open Sans;
+    font-size: 20px;
+    margin-bottom: 28px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;*/
+
+
+    .lista-rodape li {
+        display: block; /* Faz com que cada item da lista apareça em uma linha */
+        margin-bottom: 10px; /* Adiciona um espaçamento entre os itens da lista */
+    }
+
+.container-rodape {
+    margin-left: 60px;
+
+}
